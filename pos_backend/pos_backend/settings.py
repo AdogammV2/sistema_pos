@@ -38,16 +38,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'corsheaders', # Permite solicitudes desde Angular
-    'caja',
-    'clientes',
-    'compras',
-    'configuracion',
-    'inventario',
-    'productos',
-    'reportes',
-    'usuarios',
-    'ventas'
+    'corsheaders',
+    'apps.caja',
+    'apps.clientes',
+    'apps.compras',
+    'apps.configuracion',
+    'apps.inventario',
+    'apps.productos',
+    'apps.reportes',
+    'apps.usuarios',
+    'apps.ventas'
 ]
 
 REST_FRAMEWORK = {
