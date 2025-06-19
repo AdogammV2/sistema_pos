@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders', # Permite solicitudes desde Angular
-    'ventas',
 ]
 
 MIDDLEWARE = [
